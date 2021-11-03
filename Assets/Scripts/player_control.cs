@@ -14,6 +14,7 @@ public class player_control : MonoBehaviour
     RaycastHit hit;
     public bool jump;
     public LayerMask mask;
+    public float JumpReflexTime;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,10 +41,12 @@ public class player_control : MonoBehaviour
             jump = true;
             rb.velocity = new Vector3(0, 3, 0);
         }
-        if (rb.velocity.y < 0)
+        if (JumpReflexTime <= 0)
         {
             jump = false;
+            JumpReflexTime = 0.8f;
         }
+        JumpReflexTime -= Time.deltaTime;
 
         mouse_x = Input.GetAxis("Mouse X");
         mouse_y = Input.GetAxis("Mouse Y");
