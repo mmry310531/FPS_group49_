@@ -12,6 +12,9 @@ public class EnemyWalking : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        agent.SetDestination(player.position);
+        // float destination = (transform.position - player.position).magnitude;
+        // if (destination < 10) 
+            agent.SetDestination(player.position);
+
     }
 }
