@@ -12,10 +12,12 @@ public class player_control : MonoBehaviour
     public Vector3 velocity, mouseDir;
     Rigidbody rb;
     RaycastHit hit;
+    public bool jump;
     public LayerMask mask;
     // Start is called before the first frame update
     void Start()
     {
+        jump = false;
         mcam = Camera.main;
         speed = 5f;
         rotate_apeed = 4f;
@@ -33,9 +35,14 @@ public class player_control : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
             click = true;
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space)&&!jump)
         {
+            jump = true;
             rb.velocity = new Vector3(0, 3, 0);
+        }
+        if (rb.velocity.y < 0)
+        {
+            jump = false;
         }
 
         mouse_x = Input.GetAxis("Mouse X");
