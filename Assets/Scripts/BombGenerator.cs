@@ -5,19 +5,19 @@ using UnityEngine;
 public class BombGenerator : MonoBehaviour
 {
     public GameObject bomb_prefab;
-    public Vector3 ThrowDirection;
-    public Vector3 offset;
+    public float Height;
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.K))
         {
             GameObject bomb = Instantiate<GameObject>(bomb_prefab);
-            bomb.transform.position = transform.position + offset;
+            bomb.transform.position = transform.position + transform.forward;
 
 
             Rigidbody rb = bomb.GetComponent<Rigidbody>();
-            rb.AddForce(ThrowDirection, ForceMode.Impulse);
+            rb.AddForce(transform.forward*4 + new Vector3(0,Height,0), ForceMode.Impulse);;
+            
         }
     }
 }
