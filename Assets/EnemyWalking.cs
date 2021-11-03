@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.AI;
 using UnityEngine;
 
+
 public class EnemyWalking : MonoBehaviour
 {
     public NavMeshAgent agent;
