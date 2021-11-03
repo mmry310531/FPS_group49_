@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
             Time.timeScale = 0; 
             UI_Menu.SetActive(true);
         }
-        //
+        // TODO
         // if (player.getComponent<player_control>.health <= 0f){
         //  Cursor.lockState = CursorLockMode.Confined;
         //  Time.timeScale = 0;
