@@ -12,7 +12,7 @@ public class BombGenerator : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.K))
         {
             GameObject bomb = Instantiate<GameObject>(bomb_prefab);
-            bomb.transform.position = transform.position + transform.forward;
+            bomb.transform.position = transform.position + transform.forward + new Vector3( 0, 0.5f, 0 );
 
 
             Rigidbody rb = bomb.GetComponent<Rigidbody>();

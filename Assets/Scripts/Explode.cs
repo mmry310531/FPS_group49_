@@ -6,19 +6,25 @@ using UnityEngine;
 
 public class Explode : MonoBehaviour
 {
-
     public float time;
     public float deltaTime;
-    public float range;
+    float range = 10.0f;
     public Rigidbody rb;
     public GameObject ps;
+    SphereCollider sc;
+
+    void Start()
+    {
+        sc = this.gameObject.GetComponent<SphereCollider>();
+    }
+
     void Update()
     {
         
         time -= Time.deltaTime * deltaTime;
-
         if (time <= 0)
         {
+            // sc.radius = 20;
             GOT_Explode();
             //rb.AddExplosionForce(200f, this.transform.position, 200f);
             GameObject ps_o = Instantiate(ps, transform.position, transform.rotation);
@@ -32,12 +38,15 @@ public class Explode : MonoBehaviour
 
     void GOT_Explode()
     {
+        
         Collider[] colliders = Physics.OverlapSphere(transform.position, range);
         foreach(Collider c in colliders)
         {
-            if(c.tag == "Enemy")
+            Debug.Log(c.name);
+            if (c.gameObject.tag == "Enemy")
             {
-                Damage(c.transform);
+                GameObject.Find(c.name).GetComponent<HP>().hpnow -= 40;
+                // Damage(c.transform);
             }
         }
     }

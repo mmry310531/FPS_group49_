@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 473979128}
   m_Layer: 0
   m_Name: Bomb
-  m_TagString: Untagged
+  m_TagString: Bomb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,6 +111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   time: 1
   deltaTime: 1
+  range: 100
   rb: {fileID: 473979128}
   ps: {fileID: 1249293531719300156, guid: 6230ddee4e4d14bb990b572b9f3140d8, type: 3}
 --- !u!54 &473979128

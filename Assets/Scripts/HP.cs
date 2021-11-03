@@ -17,7 +17,32 @@ public class HP : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // hpnow -= 1;
+        if (hpnow <= 0) {
+            Destroy(this.gameObject);
+        }
         hpimage.fillAmount = hpnow / hpmax;
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Bomb")
+        {
+            hpnow -= 40;
+        } // if
+
+        if (collision.gameObject.tag == "Bullet")
+        {
+            hpnow -= 20;
+        } // if
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Bullet")
+        {
+            hpnow -= 20;
+        } // if
+
+    }
+
 }
