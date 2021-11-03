@@ -11,12 +11,6 @@ public class Explode : MonoBehaviour
     float range = 10.0f;
     public Rigidbody rb;
     public GameObject ps;
-    SphereCollider sc;
-
-    void Start()
-    {
-        sc = this.gameObject.GetComponent<SphereCollider>();
-    }
 
     void Update()
     {
@@ -24,7 +18,6 @@ public class Explode : MonoBehaviour
         time -= Time.deltaTime * deltaTime;
         if (time <= 0)
         {
-            // sc.radius = 20;
             GOT_Explode();
             //rb.AddExplosionForce(200f, this.transform.position, 200f);
             GameObject ps_o = Instantiate(ps, transform.position, transform.rotation);

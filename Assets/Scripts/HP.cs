@@ -25,24 +25,11 @@ public class HP : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Bomb")
-        {
-            hpnow -= 40;
-        } // if
 
         if (collision.gameObject.tag == "Bullet")
         {
             hpnow -= 20;
         } // if
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "Bullet")
-        {
-            hpnow -= 20;
-        } // if
-
     }
 
 }
