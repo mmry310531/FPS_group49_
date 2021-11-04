@@ -19,7 +19,7 @@ public class player : MonoBehaviour
     void Start()
     {
         mcam = Camera.main;
-        speed = 10f;
+        speed = 5f;
         rotate_apeed = 2f;
         rb = GetComponent<Rigidbody>();
         line = GetComponent<LineRenderer>();
@@ -89,7 +89,7 @@ public class player : MonoBehaviour
     }
     private IEnumerator ShotEffect()
     {
-        line.SetPosition(0, this.transform.position);
+        line.SetPosition(0, this.transform.position );
         line.SetPosition(1, this.transform.position + mcam.transform.forward * 250f);
         Debug.Log("fire");
         line.enabled = true;
