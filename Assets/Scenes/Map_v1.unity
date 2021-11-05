@@ -1757,28 +1757,6 @@ MonoBehaviour:
   hpnow: 0
   hpmax: 100
   hpimage: {fileID: 468279084}
---- !u!195 &67064835
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 67064832}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &67064836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1792,7 +1770,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 67064835}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
@@ -2821,32 +2798,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 125769970}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
---- !u!195 &125769970
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 125769967}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &125769971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2981,32 +2935,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 129423434}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
---- !u!195 &129423434
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 129423431}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &129423435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3885,28 +3816,6 @@ MonoBehaviour:
   hpnow: 0
   hpmax: 100
   hpimage: {fileID: 1463658011}
---- !u!195 &168688918
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 168688915}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &168688919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3920,7 +3829,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 168688918}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
@@ -5512,28 +5420,6 @@ MonoBehaviour:
   hpnow: 0
   hpmax: 100
   hpimage: {fileID: 1702731039}
---- !u!195 &263327404
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 263327401}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &263327405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5547,7 +5433,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 263327404}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
@@ -6671,28 +6556,6 @@ MonoBehaviour:
   hpnow: 0
   hpmax: 100
   hpimage: {fileID: 2057733964}
---- !u!195 &303052596
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 303052593}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &303052597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6706,7 +6569,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 303052596}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
@@ -6884,28 +6746,6 @@ MonoBehaviour:
   hpnow: 0
   hpmax: 100
   hpimage: {fileID: 2023914028}
---- !u!195 &310645166
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 310645163}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &310645167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6919,7 +6759,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 310645166}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
@@ -12959,28 +12798,6 @@ MonoBehaviour:
   hpnow: 0
   hpmax: 100
   hpimage: {fileID: 848496703}
---- !u!195 &603226338
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 603226335}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &603226339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12994,7 +12811,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 603226338}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
@@ -14401,28 +14217,6 @@ MonoBehaviour:
   hpnow: 0
   hpmax: 100
   hpimage: {fileID: 310838163}
---- !u!195 &696011124
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 696011121}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &696011125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14436,7 +14230,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 696011124}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
@@ -16742,28 +16535,6 @@ MonoBehaviour:
   hpnow: 0
   hpmax: 100
   hpimage: {fileID: 975560510}
---- !u!195 &768510289
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 768510286}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &768510290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16777,7 +16548,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 768510289}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
@@ -19340,32 +19110,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 892792875}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
---- !u!195 &892792875
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 892792872}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &892792876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21361,28 +21108,6 @@ MonoBehaviour:
   hpnow: 0
   hpmax: 100
   hpimage: {fileID: 1572070966}
---- !u!195 &960088338
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 960088335}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &960088339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21396,7 +21121,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 960088338}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
@@ -23094,28 +22818,6 @@ MonoBehaviour:
   hpnow: 0
   hpmax: 100
   hpimage: {fileID: 999226275}
---- !u!195 &1051425885
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1051425882}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &1051425886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23129,7 +22831,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 1051425885}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
@@ -25914,28 +25615,6 @@ MonoBehaviour:
   hpnow: 0
   hpmax: 100
   hpimage: {fileID: 1475303587}
---- !u!195 &1180808928
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1180808925}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &1180808929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25949,7 +25628,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 1180808928}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
@@ -26486,32 +26164,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 1201108256}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
---- !u!195 &1201108256
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201108253}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &1201108257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28543,28 +28198,6 @@ MonoBehaviour:
   hpnow: 0
   hpmax: 100
   hpimage: {fileID: 965604551}
---- !u!195 &1291226260
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1291226257}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &1291226261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28578,7 +28211,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 1291226260}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
@@ -30135,28 +29767,6 @@ MonoBehaviour:
   hpnow: 0
   hpmax: 100
   hpimage: {fileID: 1261161919}
---- !u!195 &1407070819
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1407070816}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &1407070820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30170,7 +29780,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 1407070819}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
@@ -30395,28 +30004,6 @@ MonoBehaviour:
   hpnow: 0
   hpmax: 100
   hpimage: {fileID: 459719708}
---- !u!195 &1412773368
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1412773365}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &1412773369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30430,7 +30017,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 1412773368}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
@@ -32411,28 +31997,6 @@ MonoBehaviour:
   hpnow: 0
   hpmax: 100
   hpimage: {fileID: 1539456852}
---- !u!195 &1514215917
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514215914}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &1514215918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32446,7 +32010,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 1514215917}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
@@ -33662,28 +33225,6 @@ MonoBehaviour:
   hpnow: 0
   hpmax: 100
   hpimage: {fileID: 256717577}
---- !u!195 &1560630340
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560630337}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &1560630341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33697,7 +33238,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 1560630340}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
@@ -34874,28 +34414,6 @@ MonoBehaviour:
   hpnow: 0
   hpmax: 100
   hpimage: {fileID: 1701656851}
---- !u!195 &1602455220
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1602455217}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &1602455221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34909,7 +34427,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 1602455220}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
@@ -36976,28 +36493,6 @@ MonoBehaviour:
   hpnow: 0
   hpmax: 100
   hpimage: {fileID: 176734822}
---- !u!195 &1703377421
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1703377418}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &1703377422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37011,7 +36506,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 1703377421}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
@@ -37837,28 +37331,6 @@ MonoBehaviour:
   hpnow: 0
   hpmax: 100
   hpimage: {fileID: 851729721}
---- !u!195 &1761956402
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1761956399}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &1761956403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37872,7 +37344,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 1761956402}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
@@ -41979,28 +41450,6 @@ MonoBehaviour:
   hpnow: 0
   hpmax: 100
   hpimage: {fileID: 381214329}
---- !u!195 &1931877201
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1931877198}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &1931877202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42014,7 +41463,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 1931877201}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
@@ -42651,28 +42099,6 @@ MonoBehaviour:
   hpnow: 0
   hpmax: 100
   hpimage: {fileID: 788124368}
---- !u!195 &1951288813
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1951288810}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &1951288814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42686,7 +42112,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 1951288813}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
@@ -44408,32 +43833,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalPosition: {x: 0, y: 0, z: 0}
-  agent: {fileID: 2028723827}
   player: {fileID: 665060777}
   Target: {fileID: 0}
   range: 10
---- !u!195 &2028723827
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2028723824}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.29999998
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.6150801
-  m_BaseOffset: 0.30754006
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!114 &2028723828
 MonoBehaviour:
   m_ObjectHideFlags: 0
