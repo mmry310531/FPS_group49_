@@ -75,8 +75,9 @@ public class player_control : MonoBehaviour
             if (Physics.Raycast(this.transform.position, mcam.transform.forward, out hit, 250f, mask))
             {
                 Debug.Log(hit.transform.name);
+                Debug.DrawLine(this.transform.position, this.transform.position + mcam.transform.forward * 100f);
             }
-            //Debug.DrawLine(this.transform.position, this.transform.position + mcam.transform.forward * 100f);
+            
 
         }
 
