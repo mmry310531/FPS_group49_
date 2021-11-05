@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        Time.timeScale = 1;
         UI_WIN.SetActive(false);
         UI_Dead.SetActive(false);
         UI_Menu.SetActive(false);
@@ -45,6 +46,7 @@ public class GameManager : MonoBehaviour
 
     public void GameRestart()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(0);
     }
 

@@ -77,7 +77,7 @@ public class player : MonoBehaviour
             StartCoroutine(ShotEffect());
             if (Physics.Raycast(this.transform.position, mcam.transform.forward, out hit, 250f, mask))
             {
-                
+                hit.transform.GetComponent<HP>().hpnow -= 20;
                 Debug.Log(hit.transform.name);
             }
             //Debug.DrawLine(this.transform.position, this.transform.position + mcam.transform.forward * 100f);
