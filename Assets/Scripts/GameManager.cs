@@ -11,13 +11,15 @@ public class GameManager : MonoBehaviour
     public GameObject UI_WIN;
     public GameObject UI_Dead;
     public GameObject UI_Menu;
-
+    public static GameManager gm;
 
     private void Start()
     {
         UI_WIN.SetActive(false);
         UI_Dead.SetActive(false);
         UI_Menu.SetActive(false);
+        gm = this;
+
     }
 
 
@@ -37,13 +39,7 @@ public class GameManager : MonoBehaviour
             Time.timeScale = 0; 
             UI_Menu.SetActive(true);
         }
-        // TODO
-        // if (player.getComponent<player_control>.health <= 0f){
-        //  Cursor.lockState = CursorLockMode.Confined;
-        //  Time.timeScale = 0;
-        //  UI_Dead.SetActive(true);
-        // }
-        //
+
     }
 
 
@@ -61,5 +57,12 @@ public class GameManager : MonoBehaviour
     {
         UI_Menu.SetActive(false);
         Time.timeScale = 1;
+    }
+
+    public void player_dead()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+        Time.timeScale = 0;
+        UI_Dead.SetActive(true);
     }
 }

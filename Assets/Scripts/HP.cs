@@ -18,8 +18,12 @@ public class HP : MonoBehaviour
     void Update()
     {
         if (hpnow <= 0) {
-            Destroy(this.gameObject);
+            if (tag == "Enemy")
+                Destroy(this.gameObject);
+            if (tag == "player")
+                GameManager.gm.player_dead();
         }
+        
         hpimage.fillAmount = hpnow / hpmax;
     }
 
@@ -30,6 +34,10 @@ public class HP : MonoBehaviour
         {
             hpnow -= 20;
         } // if
+        if(collision.gameObject.tag == "Enemy" && tag == "player")
+        {
+            hpnow -= 20;
+        }
     }
 
 }
