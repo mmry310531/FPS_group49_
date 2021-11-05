@@ -6,19 +6,34 @@ using UnityEngine;
 
 public class EnemyWalking : MonoBehaviour
 {
+    public Vector3 OriginalPosition;
+
     public NavMeshAgent agent;
-    public Transform player;
-    public Vector3 Destination;
+    public GameObject player;
+    public GameObject Target;
     public float range;
+
+    private void Start()
+    {
+        
+        OriginalPosition = transform.position;
+    }
     // Update is called once per frame
     void Update()
     {
         if ((player.transform.position - transform.position).magnitude < range)
-            Destination = player.position;
+            Target = player;
         else
-            Destination = transform.position;
+            Target = null;
 
-        agent.SetDestination(Destination);
+        if (Target != null)
+        {
+            agent.SetDestination(Target.transform.position);
+        }
+        else
+        {
+            agent.SetDestination(OriginalPosition);
+        }
 
     }
 }
